@@ -1,5 +1,5 @@
 require 'sinatra'
-require './helper_module'
+require_relative './helper_module'
 
 get '/' do
   erb :index
